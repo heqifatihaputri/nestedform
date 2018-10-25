@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
 
   def new
   @place = Place.new
-  3.times { @place.addresses.build}
+  5.times { @place.addresses.build}
 end
 
   def create
